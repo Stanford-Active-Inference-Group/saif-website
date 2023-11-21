@@ -35,8 +35,7 @@ export default function Home() {
           If you are interested in learning more, sign up to our mailing list!
         </p>
         <div className={styles.emailInputGroup}>
-          <input type="email" id="email" name="email" placeholder="Your email address" className={styles.emailInput} />
-          <button class={styles.button39} role="button">Join</button>
+          <button className={styles.button62} role="button" onClick={() => window.location.href='https://mailman.stanford.edu/mailman/listinfo/inferactively'}>Join the mailing list</button>
         </div>
         <p className={styles.inspired}>
           Established in 2023 at Stanford University.
